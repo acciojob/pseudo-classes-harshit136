@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+.para:before {
+    content: 'Before Element';
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    margin-right: 5px;
+	font-size: 25px;
+}
+
+.para:after {
+    content: 'After Element';
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    margin-left: 5px;
+	font-size: 25px;
+}
